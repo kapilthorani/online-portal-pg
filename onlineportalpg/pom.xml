@@ -22,7 +22,12 @@
 	</properties>
 
 	<dependencies>
-
+		<!-- Link Backend Project OnlinePortalPGBackend -->
+		<dependency>
+			<groupId>net.nkt</groupId>
+			<artifactId>onlineportalpgbackend</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 		<!-- JAVA EE API -->
 		<dependency>
 			<groupId>javax</groupId>

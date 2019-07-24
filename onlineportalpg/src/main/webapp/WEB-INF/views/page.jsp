@@ -87,9 +87,15 @@
   	<c:if test="${userClickServices == true}">
 	<%@include file ="services.jsp" %>
 	</c:if>
+	
 	<!-- Loading the Contact Content when only user click -->
   	<c:if test="${userClickContact == true}">
 	<%@include file ="contact.jsp" %>
+	</c:if>
+	
+	<!-- Loading the List All PG's Content when only user click -->
+  	<c:if test="${userClickAllPG == true or userClickCategoryPG == true}">
+	<%@include file ="listPG.jsp" %>
 	</c:if>
 	
 	</div>

@@ -15,9 +15,6 @@
 			id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav">
 				
-				<li id ="listProducts">
-				<a href="${contextRoot}/listProducts">View Products</a>
-				</li>
 				<li id ="admin">
 				<a href="${contextRoot}/admin">Admin</a>
 				</li>
@@ -38,6 +35,9 @@
 				</li>
 				<li id ="contact">
 				<a href="${contextRoot}/contact">Contact</a>
+				</li>
+				<li id ="listPG">
+				<a href="${contextRoot}/show/all/pg">View PG</a>
 				</li>
 			</ul>
 		</div>

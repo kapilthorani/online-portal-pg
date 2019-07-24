@@ -13,6 +13,7 @@
    ">
 
 	<context:component-scan base-package="net.nkt.onlineportalpg.controller" />
+	<context:component-scan base-package="net.nkt.onlineportalpgbackend.daoimpl" />
 
 	<bean id="viewResolver"
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">

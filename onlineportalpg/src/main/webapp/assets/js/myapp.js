@@ -24,8 +24,12 @@ $(function() {
 	case 'Contact Us':
 		$('#contact').addClass('active');
 		break;
+	case 'All PG':
+		$('#listPG').addClass('active');
+		break;
 	default:
-		$('#home').addClass('active');
-	break;
+		$('#listPG').addClass('active');
+		$('a_'+menu).addClass('active');
+		break;
 	}
 });
